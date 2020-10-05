@@ -8,7 +8,7 @@ const myInfos = () => {
 var cowsay = require("cowsay");
 
 console.log(cowsay.say({
-	text : `I'm ${myName}`,
+	text : `I'm ${myName} and myCampus is ${myCampus}`,
 	e : "oO",
 	T : "U "
 }));
